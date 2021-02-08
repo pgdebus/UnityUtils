@@ -10,6 +10,15 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
+# Custom Unity gotignore filters - PD 8/2/2021
+.vsconfig
+/[Tt]emp.*/
+/[Uu]ser[Ss]ettings/
+.*.swp
+.*~
+*.md~
+
+
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
 

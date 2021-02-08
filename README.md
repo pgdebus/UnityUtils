@@ -48,4 +48,5 @@ performant if called within Update or FixedUpdate loops. To avoid performance ov
 ## Using the example project
 Download the project then open the *StartHere* scene. The scene contains a bunch of nested empty, circle and square gameObjects. The *Children* gameObject has an example C# script component called *ChildrenController* demonstrating the use of the Transform extension methods. The *ChildrenController* script just finds some children and parent game objects and prints those found in the Unity console. Note the *Square4* gameObject is not active to demonstrate excluding inactive gameObjects.
 
-
+## Credits
+The code in the transform extension method GetGameObjectPath was copied from a Unity forum post.
